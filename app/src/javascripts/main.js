@@ -62,7 +62,13 @@
             }
         });
 
+<<<<<<< HEAD
         // hide loading animation since everything is ready
+=======
+
+
+      // hide loading animation since everything is ready
+>>>>>>> d7904dd2a7ef5e75df616c47f1e9601f23f48162
         $('.loading-overlay').slideUp();
     });
 })();

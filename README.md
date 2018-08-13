@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # wechat-h5-boilerplate
 
 > 「让制作H5像制作PPT一样简单！」
@@ -267,3 +268,6 @@ Wechat-H5-Boilerplate(以下简称WHB）是一个H5动效模板，专门为微�
   [20]: http://www.spritecow.com/
   [21]: http://www.adobe.com/products/audition.html
   [22]: http://opensource.org/licenses/mit-license.html
+=======
+# H5 for WHU
+>>>>>>> d7904dd2a7ef5e75df616c47f1e9601f23f48162
