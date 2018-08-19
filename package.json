@@ -29,10 +29,7 @@
   },
   "dependencies": {
     "animate.css": "^3.4.0",
-<<<<<<< HEAD
-=======
     "gulp-install": "^1.1.0",
->>>>>>> d7904dd2a7ef5e75df616c47f1e9601f23f48162
     "jquery": "^3.1.1",
     "normalize.css": "^5.0.0",
     "swiper": "^3.2.7"
