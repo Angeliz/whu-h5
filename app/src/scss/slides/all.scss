@@ -1,0 +1,717 @@
+.dialog {
+  width: 18rem;
+  height: 18rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 14rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url('../../images/dialog.png');
+  .text {
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    right: 2rem;
+    color: white;
+  }
+}
+
+.fox {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  //float: left;
+}
+
+.fox_start {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+}
+
+.fox_to_songqing {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 5rem;
+  left: 5rem;
+  animation: songqing 2s linear infinite;
+  -moz-animation: songqing 2s linear infinite; /* Firefox */
+  -webkit-animation: songqing 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: songqing 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes songqing {
+  from {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;;
+  }
+  to {
+    position: absolute;
+    bottom: 12rem;
+    left: 3rem;
+  }
+}
+
+@-moz-keyframes songqing /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+  }
+  to {
+    position: absolute;
+    bottom: 12rem;
+    left: 3rem;
+  }
+}
+
+@-webkit-keyframes songqing /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+  }
+  to {
+    position: absolute;
+    bottom: 12rem;
+    left: 3rem;
+  }
+}
+
+@-o-keyframes songqing /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;;
+  }
+  to {
+    position: absolute;
+    bottom: 12rem;
+    left: 3rem;
+  }
+}
+
+.fox_to_laozhaishe {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 12rem;
+  left: 3rem;
+  animation: laozhaishe 2s linear infinite;
+  -moz-animation: laozhaishe 2s linear infinite; /* Firefox */
+  -webkit-animation: laozhaishe 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: laozhaishe 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes laozhaishe {
+  from {
+    position: absolute;
+    bottom: 12rem;
+    left: 3rem;
+  }
+  to {
+    position: absolute;
+    bottom: 19rem;
+    left: 2rem;
+  }
+}
+
+@-moz-keyframes laozhaishe /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 12rem;
+    left: 3rem;
+  }
+  to {
+    position: absolute;
+    bottom: 19rem;
+    left: 2rem;
+  }
+}
+
+@-webkit-keyframes laozhaishe /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 12rem;
+    left: 3rem;
+  }
+  to {
+    position: absolute;
+    bottom: 19rem;
+    left: 2rem;
+  }
+}
+
+@-o-keyframes laozhaishe /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 12rem;
+    left: 3rem;
+  }
+  to {
+    position: absolute;
+    bottom: 19rem;
+    left: 2rem;
+  }
+}
+
+.fox_to_laotu {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 19rem;
+  left: 2rem;
+  animation: laotu 2s linear infinite;
+  -moz-animation: laotu 2s linear infinite; /* Firefox */
+  -webkit-animation: laotu 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: laotu 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes laotu {
+  from {
+    position: absolute;
+    bottom: 19rem;
+    left: 2rem;
+  }
+  to {
+    position: absolute;
+    bottom: 23rem;
+    left: 3rem;
+  }
+}
+
+@-moz-keyframes laotu /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 19rem;
+    left: 2rem;
+  }
+  to {
+    position: absolute;
+    bottom: 23rem;
+    left: 3rem;
+  }
+}
+
+@-webkit-keyframes laotu /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 19rem;
+    left: 2rem;
+  }
+  to {
+    position: absolute;
+    bottom: 23rem;
+    left: 3rem;
+  }
+}
+
+@-o-keyframes laotu /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 19rem;
+    left: 2rem;
+  }
+  to {
+    position: absolute;
+    bottom: 23rem;
+    left: 3rem;
+  }
+}
+
+.fox_to_lixuelou {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 23rem;
+  left: 3rem;
+  animation: lixuelou 2s linear infinite;
+  -moz-animation: lixuelou 2s linear infinite; /* Firefox */
+  -webkit-animation: lixuelou 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: lixuelou 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes lixuelou {
+  from {
+    position: absolute;
+    bottom: 23rem;
+    left: 3rem;
+  }
+  to {
+    position: absolute;
+    bottom: 29rem;
+    left: 4rem;
+  }
+}
+
+@-moz-keyframes lixuelou /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 23rem;
+    left: 3rem;
+  }
+  to {
+    position: absolute;
+    bottom: 29rem;
+    left: 4rem;
+  }
+}
+
+@-webkit-keyframes lixuelou /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 23rem;
+    left: 3rem;
+  }
+  to {
+    position: absolute;
+    bottom: 29rem;
+    left: 4rem;
+  }
+}
+
+@-o-keyframes lixuelou /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 23rem;
+    left: 3rem;
+  }
+  to {
+    position: absolute;
+    bottom: 29rem;
+    left: 4rem;
+  }
+}
+
+.fox_to_diegong {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 29rem;
+  left: 4rem;
+  animation: diegong 2s linear infinite;
+  -moz-animation: diegong 2s linear infinite; /* Firefox */
+  -webkit-animation: diegong 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: diegong 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes diegong {
+  from {
+    position: absolute;
+    bottom: 29rem;
+    left: 4rem;
+  }
+  to {
+    position: absolute;
+    bottom: 30rem;
+    left: 14rem;
+  }
+}
+
+@-moz-keyframes diegong /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 29rem;
+    left: 4rem;
+  }
+  to {
+    position: absolute;
+    bottom: 30rem;
+    left: 14rem;
+  }
+}
+
+@-webkit-keyframes diegong /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 29rem;
+    left: 4rem;
+  }
+  to {
+    position: absolute;
+    bottom: 30rem;
+    left: 14rem;
+  }
+}
+
+@-o-keyframes diegong /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 29rem;
+    left: 4rem;
+  }
+  to {
+    position: absolute;
+    bottom: 30rem;
+    left: 14rem;
+  }
+}
+
+.fox_to_xingzhenglou {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 30rem;
+  left: 14rem;
+  animation: xingzhenglou 2s linear infinite;
+  -moz-animation: xingzhenglou 2s linear infinite; /* Firefox */
+  -webkit-animation: xingzhenglou 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: xingzhenglou 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes xingzhenglou {
+  from {
+    position: absolute;
+    bottom: 30rem;
+    left: 14rem;
+  }
+  to {
+    position: absolute;
+    bottom: 25rem;
+    left: 14rem;
+  }
+}
+
+@-moz-keyframes xingzhenglou /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 30rem;
+    left: 14rem;
+  }
+  to {
+    position: absolute;
+    bottom: 25rem;
+    left: 14rem;
+  }
+}
+
+@-webkit-keyframes xingzhenglou /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 30rem;
+    left: 14rem;
+  }
+  to {
+    position: absolute;
+    bottom: 25rem;
+    left: 14rem;
+  }
+}
+
+@-o-keyframes xingzhenglou /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 30rem;
+    left: 14rem;
+  }
+  to {
+    position: absolute;
+    bottom: 25rem;
+    left: 14rem;
+  }
+}
+
+.fox_to_shibadong {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 25rem;
+  left: 14rem;
+  animation: shibadong 2s linear infinite;
+  -moz-animation: shibadong 2s linear infinite; /* Firefox */
+  -webkit-animation: shibadong 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: shibadong 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes shibadong {
+  from {
+    position: absolute;
+    bottom: 25rem;
+    left: 14rem;
+  }
+  to {
+    position: absolute;
+    bottom: 19rem;
+    left: 15rem;
+  }
+}
+
+@-moz-keyframes shibadong /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 25rem;
+    left: 14rem;
+  }
+  to {
+    position: absolute;
+    bottom: 19rem;
+    left: 15rem;
+  }
+}
+
+@-webkit-keyframes shibadong /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 25rem;
+    left: 14rem;
+  }
+  to {
+    position: absolute;
+    bottom: 19rem;
+    left: 15rem;
+  }
+}
+
+@-o-keyframes shibadong /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 25rem;
+    left: 14rem;
+  }
+  to {
+    position: absolute;
+    bottom: 19rem;
+    left: 15rem;
+  }
+}
+
+.fox_to_wanlin {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 19rem;
+  left: 15rem;
+  animation: wanlin 2s linear infinite;
+  -moz-animation: wanlin 2s linear infinite; /* Firefox */
+  -webkit-animation: wanlin 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: wanlin 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes wanlin {
+  from {
+    position: absolute;
+    bottom: 19rem;
+    left: 15rem;
+  }
+  to {
+    position: absolute;
+    bottom: 16rem;
+    left: 11rem;
+  }
+}
+
+@-moz-keyframes wanlin /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 19rem;
+    left: 15rem;
+  }
+  to {
+    position: absolute;
+    bottom: 16rem;
+    left: 11rem;
+  }
+}
+
+@-webkit-keyframes wanlin /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 19rem;
+    left: 15rem;
+  }
+  to {
+    position: absolute;
+    bottom: 16rem;
+    left: 11rem;
+  }
+}
+
+@-o-keyframes wanlin /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 19rem;
+    left: 15rem;
+  }
+  to {
+    position: absolute;
+    bottom: 16rem;
+    left: 11rem;
+  }
+}
+
+.fox_to_qinglou {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 16rem;
+  left: 11rem;
+  animation: qinglou 2s linear infinite;
+  -moz-animation: qinglou 2s linear infinite; /* Firefox */
+  -webkit-animation: qinglou 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: qinglou 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes qinglou {
+  from {
+    position: absolute;
+    bottom: 16rem;
+    left: 11rem;
+  }
+  to {
+    position: absolute;
+    bottom: 10rem;
+    left: 15rem;
+  }
+}
+
+@-moz-keyframes qinglou /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 16rem;
+    left: 11rem;
+  }
+  to {
+    position: absolute;
+    bottom: 10rem;
+    left: 15rem;
+  }
+}
+
+@-webkit-keyframes qinglou /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 16rem;
+    left: 11rem;
+  }
+  to {
+    position: absolute;
+    bottom: 10rem;
+    left: 15rem;
+  }
+}
+
+@-o-keyframes qinglou /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 16rem;
+    left: 11rem;
+  }
+  to {
+    position: absolute;
+    bottom: 10rem;
+    left: 15rem;
+  }
+}
+
+.fox_end {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  bottom: 10rem;
+  left: 15rem;
+  animation: end 2s linear infinite;
+  -moz-animation: end 2s linear infinite; /* Firefox */
+  -webkit-animation: end 2s linear infinite; /* Safari 和 Chrome */
+  -o-animation: end 2s linear infinite; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+@keyframes end {
+  from {
+    position: absolute;
+    bottom: 10rem;
+    left: 15rem;
+  }
+  to {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+  }
+}
+
+@-moz-keyframes end /* Firefox */
+{
+  from {
+    position: absolute;
+    bottom: 10rem;
+    left: 15rem;
+  }
+  to {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+  }
+}
+
+@-webkit-keyframes end /* Safari 和 Chrome */
+{
+  from {
+    position: absolute;
+    bottom: 10rem;
+    left: 15rem;
+  }
+  to {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+  }
+}
+
+@-o-keyframes end /* Opera */
+{
+  from {
+    position: absolute;
+    bottom: 10rem;
+    left: 15rem;
+  }
+  to {
+    position: absolute;
+    bottom: 5rem;
+    left: 5rem;
+  }
+}
