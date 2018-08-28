@@ -10,12 +10,12 @@
   right: 0;
   margin: auto;
   background-image: url('../../images/dialog.png');
+  padding: 4rem 2rem;
   .text {
-    position: absolute;
-    top: 4rem;
-    left: 2rem;
-    right: 2rem;
+    font-size: 14px;
     color: white;
+    line-height: 150%;
+
   }
 }
 

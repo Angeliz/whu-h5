@@ -43,11 +43,21 @@
                  data-ani-delay="0s"></div>
             <div>
                 <div class="dialog animated" data-ani-name="slideInLeft" data-ani-duration="1s" data-ani-delay="0s">
-                    <p class="text">
-                        千里之行，始于足下”，陈东升先生毕业之时为了激励自己而刻下“始”字于方石之上，想必也未曾料到，多年以后，冥冥之中竟因此而敲定了母校武汉大学首座艺术展览馆——万林艺术博物馆的方案设计。</p>
+                    <p class="text paifang" id="paifang0">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学大汉，武立国，铁肩担道义； 自强魂，弘毅气，豪情兮一何滔滔。
+                    </p>
+                    <p class="text paifang" style="display: none" id="paifang1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;阳面题有“国立武汉大学”、阴面题有“文法理工农医”的牌坊伫立在书墨香气与市井烟火之间，暮去朝来，岁月沉淀，它渐渐成为武大的精神与文化象征。
+                    </p>
+                    <p class="text paifang" style="display: none" id="paifang2">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;武汉大学最早的牌坊，为木质结构，建于1931年，仿北方牌坊式样，四柱三间歇山式结构，琉璃瓦顶，略施斗拱，油漆彩绘。然木牌坊建成次年，就毁于龙卷风。
+                    </p>
+                    <p class="text paifang" style="display: none" id="paifang3">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为迎接武汉大学建校120年， 2013年12月新牌坊和牌坊广场落成。和老牌坊相比，新牌坊按原貌重建，比原来退后10米放大1.2倍。我们如今看到的牌坊，就是这座。
+                    </p>
                 </div>
                 <img src="./images/fox.png" class="fox animated" data-ani-name="slideInLeft" data-ani-duration="1s"
-                     data-ani-delay="0s"/>
+                     data-ani-delay="0s" onclick="miao('paifang')"/>
             </div>
         </div>
         <!--地图-->
@@ -244,3 +254,26 @@
 
 </body>
 </html>
+<script>
+    let paifang = 1;
+    function getVar(id) {
+        if (id==='paifang'){
+            return paifang;
+        }
+    }
+    function setVar(id) {
+        if (id==='paifang'){
+            paifang++;
+        }
+    }
+    function miao(id) {
+        const varCon = getVar(id);
+        const p = document.getElementsByClassName(id);
+        for(let i=0;i<p.length-1;i++){
+            p[i].style.display='none';
+        }
+        const newp = document.getElementById(id+varCon);
+        setVar(id);
+        newp.style.display='block';
+    }
+</script>
