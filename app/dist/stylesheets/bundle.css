@@ -5226,6 +5226,22 @@ body {
   line-height: 150%;
 }
 
+.back {
+  height: 70px;
+  width: 30px;
+  position: absolute;
+  bottom: 1rem;
+  right: 5rem;
+}
+
+.forward {
+  height: 70px;
+  width: 30px;
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+}
+
 .fox {
   height: 200px;
   width: 200px;

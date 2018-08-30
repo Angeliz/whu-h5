@@ -18,7 +18,24 @@
 
   }
 }
-
+.back{
+  height: 70px;
+  width: 30px;
+  position: absolute;
+  //bottom: 6rem;
+  //right: 8rem;
+  bottom: 1rem;
+  right: 5rem;
+}
+.forward{
+  height: 70px;
+  width: 30px;
+  position: absolute;
+  //bottom: 6rem;
+  //right: 5rem;
+  bottom: 1rem;
+  right: 2rem;
+}
 .fox {
   height: 200px;
   width: 200px;
